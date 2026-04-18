@@ -382,6 +382,14 @@ namespace Game2048
           return (Color)ColorConverter.ConvertFromString("#EDC53F");
         case 2048:
           return (Color)ColorConverter.ConvertFromString("#EDC22E");
+        case 4096:
+          return (Color)ColorConverter.ConvertFromString("#3C3A32");
+        case 8192:
+          return (Color)ColorConverter.ConvertFromString("#3C3A32");
+        case 16384:
+          return (Color)ColorConverter.ConvertFromString("#3C3A32");
+        case 32768:
+          return (Color)ColorConverter.ConvertFromString("#3C3A32");
         default:
           return (Color)ColorConverter.ConvertFromString("#3C3A32");
       }
